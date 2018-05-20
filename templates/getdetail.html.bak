@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	Programme for personal detail collection
+</head>
+<body>
+<h3> Enter the Details </h3>
+
+<form>
+<fieldset>
+<p> This is the HTML file </p>
+Enter Your Name: <input type="text" id="name" name="name" value=""> <br><br>
+<!--Enter City :     <input type="text" id="city" value=""> <br><br>
+Mobile :         <input type="text" id="mobile" value=""><br><br>
+Address:		 <textarea id="address" rows="5" cols="80"> </textarea><br><br> -->
+
+Enter Full Name: <input type="text" id="full_name" name="full_name" value=""> <br><br>
+Enter Password: <input type="password" id="password" name="password" value=""> <br><br>
+
+<h2> Hey here is the poster name {{ name }} </h2>
+<button> submit </button>
+
+</fieldset> 
+</form>
+</body>
+</html>
